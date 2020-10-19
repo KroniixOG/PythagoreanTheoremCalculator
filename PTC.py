@@ -12,7 +12,7 @@ while True:
         b = float(input("b: "))
         c = float(input("c: "))
         if c < b:
-            print("MATH ERROR!! B cannot be greater than C""\n")
+            print("MATH ERROR!! B cannot be greater than C", "\n")
         else:
             result = math.sqrt(c**2 - b**2)
             result = int(result) if result.is_integer() else result
